@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c05c19ce75d6e8489b80f2d5fc3d91d, type: 3}
+  m_Name: Path Visualizer Tiles
+  m_EditorClassIdentifier: 
+  _gridTileBrushes:
+  - m_GridTile: {fileID: -2467357943066417274, guid: ef4b5830d3de9534abe5f497d30d93da,
+      type: 3}
+    m_Height: 0
+    m_Offset: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0}
+  m_SelectedGridTileBrushIndex: 0

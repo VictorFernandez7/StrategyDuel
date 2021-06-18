@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c05c19ce75d6e8489b80f2d5fc3d91d, type: 3}
+  m_Name: Chess Tiles
+  m_EditorClassIdentifier: 
+  _gridTileBrushes:
+  - m_GridTile: {fileID: 3586767869889660509, guid: 48f29409b7bcd4b4bbcd14ad79e6df9a,
+      type: 3}
+    m_Height: 0
+    m_Offset: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0}
+  - m_GridTile: {fileID: 3586767869889660509, guid: 74406859c1e88f64f93b705d0b3c7f80,
+      type: 3}
+    m_Height: 0
+    m_Offset: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0}
+  m_SelectedGridTileBrushIndex: 0

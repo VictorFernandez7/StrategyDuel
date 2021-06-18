@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac80e55dceaae364f8613f49f8ba2d27, type: 3}
+  m_Name: Tactics GridObjects
+  m_EditorClassIdentifier: 
+  _gridObjectBrushes:
+  - m_GridObject: {fileID: 7514103607020424163, guid: 0b58718e93b3f4a49a56f6fbdd425d29,
+      type: 3}
+    m_InitialOrientation: 0
+  - m_GridObject: {fileID: 7514103607020424163, guid: 6ff886ce996cc824d85267f568602804,
+      type: 3}
+    m_InitialOrientation: 0
+  m_SelectedGridObjectBrushIndex: 1
