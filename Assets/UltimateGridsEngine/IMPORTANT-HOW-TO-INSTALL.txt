@@ -1,0 +1,25 @@
+
+HOW TO INSTALL THE ULTIMATE GRIDS ENGINE?
+-----------------------------------
+
+To import the asset correctly, follow these steps:
+
+1-	Create a new project from Unity Hub, pick the latest stable version of Unity as your Unity version, and 2D or 3D as the Template. Keep
+in mind only Unity 2019.2 and forward versions versions are supported.
+2-	Go to the Asset Store window and import the asset (it has to be in an empty project, not an existing one).
+3-	You will be warned that importing the asset will overwrite your current project settings (that’s normal), click on Import.
+4-	Once this is complete, you’ll most likely get a prompt saying “This Unity Package has Package Manager dependencies”. This is also normal,
+click on “Install/Upgrade”.
+5-	After that you’ll get a list of the contents of the engine, don’t touch anything, and click on Import in the bottom right corner.
+6-	Import will take a while. Once import is complete, a welcome window should prompt (Fig. bellow) if it shows any dependencies are missing 
+please click on install for each one and you’re ready to use the engine. Have fun!
+
+In the case you're getting errors on a fresh install follow this last step, else ignore it.
+Go to the Window -> Package Manager.
+Find and install these packages on this list: 2D Tilemap Editor, Post Processing, CineMachine and TextMesh Pro.
+
+
+
+Don't forget to read through the readme file.
+
+Ultimate Grids Engine v2.1

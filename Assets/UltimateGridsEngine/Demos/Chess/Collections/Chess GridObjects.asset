@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac80e55dceaae364f8613f49f8ba2d27, type: 3}
+  m_Name: Chess GridObjects
+  m_EditorClassIdentifier: 
+  _gridObjectBrushes:
+  - m_GridObject: {fileID: 4493009392780437591, guid: 13c3335bed9c1de41b3e3eb6ffcd9d38,
+      type: 3}
+    m_InitialOrientation: 0
+  - m_GridObject: {fileID: 6001645069841787074, guid: 514a5a98696272140b0998345798c761,
+      type: 3}
+    m_InitialOrientation: 0
+  - m_GridObject: {fileID: 3203062607448068394, guid: b38119d7141d5874794a77039ebf1343,
+      type: 3}
+    m_InitialOrientation: 0
+  - m_GridObject: {fileID: 3486190527900728443, guid: 765f68fa99a3ebc4e8dc797380d2134f,
+      type: 3}
+    m_InitialOrientation: 0
+  - m_GridObject: {fileID: -5077189062427730584, guid: db903ea622fbaa545bbdb58d7bf847a2,
+      type: 3}
+    m_InitialOrientation: 0
+  - m_GridObject: {fileID: 1366401600598740260, guid: 14a5fda37f68fb24dbc16419ed6ce880,
+      type: 3}
+    m_InitialOrientation: 0
+  - m_GridObject: {fileID: 4493009392780437591, guid: 250458ff6007b494eac5d854d8686551,
+      type: 3}
+    m_InitialOrientation: 0
+  - m_GridObject: {fileID: 6001645069841787074, guid: cc94cf3485bac67438558e1abbae8155,
+      type: 3}
+    m_InitialOrientation: 0
+  - m_GridObject: {fileID: 3203062607448068394, guid: 48b9041d429307c46818e91f116601f1,
+      type: 3}
+    m_InitialOrientation: 0
+  - m_GridObject: {fileID: 3486190527900728443, guid: ecb9346b507a8d14290082cb90e76023,
+      type: 3}
+    m_InitialOrientation: 0
+  - m_GridObject: {fileID: -5077189062427730584, guid: b25a51d34fbf5444e80daa507e20fe71,
+      type: 3}
+    m_InitialOrientation: 0
+  - m_GridObject: {fileID: 1366401600598740260, guid: ee2400ddf03ea544ca60e72d8e41e5e3,
+      type: 3}
+    m_InitialOrientation: 0
+  m_SelectedGridObjectBrushIndex: 9

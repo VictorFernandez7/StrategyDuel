@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ffeb936c67b634c96a29b92358d9e3, type: 3}
+  m_Name: Army
+  m_EditorClassIdentifier: 
+  playableCharacter: {fileID: 5689574749004748010, guid: e8a2d9e6b7ca86f45bf3f8a638352e83,
+    type: 3}
+  characterCard: {fileID: 7473088395892080479, guid: 91d52b271301ecb48a9e1dbc10aa9727,
+    type: 3}
+  characters:
+  - name: 0
+    cardName: Archer
+    description: Can't attack a tile right next to him
+    classIcon: {fileID: 21300000, guid: 39ef3ee733c904f08a85268391803a80, type: 3}
+    cost: 1
+    healthPoints: 3
+    armorPoints: 1
+    attackPoints: 2
+    movementPoints: 2
+    attacks: 1
+    attackRange: 3
+  - name: 1
+    cardName: Commander
+    description: Boosts nearby units
+    classIcon: {fileID: 21300000, guid: d0eb0a9b0830b4c0bbc18dfa164f2492, type: 3}
+    cost: 2
+    healthPoints: 2
+    armorPoints: 3
+    attackPoints: 1
+    movementPoints: 2
+    attacks: 1
+    attackRange: 1
+  - name: 2
+    cardName: Crossbow Man
+    description: Can't attack the next turn after attacking
+    classIcon: {fileID: 21300000, guid: 39ef3ee733c904f08a85268391803a80, type: 3}
+    cost: 1
+    healthPoints: 3
+    armorPoints: 1
+    attackPoints: 3
+    movementPoints: 2
+    attacks: 1
+    attackRange: 3
+  - name: 3
+    cardName: Halberdier
+    description: Long range melee attacks
+    classIcon: {fileID: 21300000, guid: 372545287556442819fd21f8bc208cc2, type: 3}
+    cost: 2
+    healthPoints: 2
+    armorPoints: 3
+    attackPoints: 2
+    movementPoints: 1
+    attacks: 1
+    attackRange: 2
+  - name: 4
+    cardName: Heavy Cavalry
+    description: Medieval tank on a horse
+    classIcon: {fileID: 21300000, guid: 372545287556442819fd21f8bc208cc2, type: 3}
+    cost: 3
+    healthPoints: 3
+    armorPoints: 3
+    attackPoints: 2
+    movementPoints: 2
+    attacks: 1
+    attackRange: 1
+  - name: 5
+    cardName: Heavy Infantry
+    description: Medieval tank
+    classIcon: {fileID: 21300000, guid: 372545287556442819fd21f8bc208cc2, type: 3}
+    cost: 2
+    healthPoints: 3
+    armorPoints: 3
+    attackPoints: 1
+    movementPoints: 1
+    attacks: 1
+    attackRange: 1
+  - name: 6
+    cardName: Heavy Swordman
+    description: 
+    classIcon: {fileID: 0}
+    cost: 0
+    healthPoints: 1
+    armorPoints: 1
+    attackPoints: 1
+    movementPoints: 1
+    attacks: 1
+    attackRange: 1
+  - name: 7
+    cardName: High Priest
+    description: Heals allies
+    classIcon: {fileID: 21300000, guid: e3c6fd8e5adf541adb992f6a1f75e2b9, type: 3}
+    cost: 1
+    healthPoints: 2
+    armorPoints: 2
+    attackPoints: 1
+    movementPoints: 2
+    attacks: 1
+    attackRange: 1
+  - name: 8
+    cardName: King
+    description: Boosts nearby units
+    classIcon: {fileID: 21300000, guid: e3c6fd8e5adf541adb992f6a1f75e2b9, type: 3}
+    cost: 0
+    healthPoints: 3
+    armorPoints: 3
+    attackPoints: 1
+    movementPoints: 2
+    attacks: 1
+    attackRange: 1
+  - name: 9
+    cardName: Light Cavalry
+    description: Charge capability
+    classIcon: {fileID: 21300000, guid: 92885073c980349c2a786888bd70f710, type: 3}
+    cost: 1
+    healthPoints: 3
+    armorPoints: 1
+    attackPoints: 2
+    movementPoints: 3
+    attacks: 1
+    attackRange: 1
+  - name: 10
+    cardName: Light Infantry
+    description: Nothing special
+    classIcon: {fileID: 21300000, guid: 92885073c980349c2a786888bd70f710, type: 3}
+    cost: 1
+    healthPoints: 2
+    armorPoints: 2
+    attackPoints: 2
+    movementPoints: 2
+    attacks: 1
+    attackRange: 1
+  - name: 11
+    cardName: Mage
+    description: Long range attacks
+    classIcon: {fileID: 21300000, guid: 7c590330b56f5478fa08eebb283dff0c, type: 3}
+    cost: 1
+    healthPoints: 2
+    armorPoints: 2
+    attackPoints: 1
+    movementPoints: 1
+    attacks: 1
+    attackRange: 3
+  - name: 12
+    cardName: Mounted King
+    description: 
+    classIcon: {fileID: 0}
+    cost: 0
+    healthPoints: 1
+    armorPoints: 1
+    attackPoints: 1
+    movementPoints: 1
+    attacks: 1
+    attackRange: 1
+  - name: 13
+    cardName: Mounted Knight
+    description: 
+    classIcon: {fileID: 0}
+    cost: 0
+    healthPoints: 1
+    armorPoints: 1
+    attackPoints: 1
+    movementPoints: 1
+    attacks: 1
+    attackRange: 1
+  - name: 14
+    cardName: Mounted Mage
+    description: 
+    classIcon: {fileID: 0}
+    cost: 0
+    healthPoints: 1
+    armorPoints: 1
+    attackPoints: 1
+    movementPoints: 1
+    attacks: 1
+    attackRange: 1
+  - name: 15
+    cardName: Mounted Paladin
+    description: 
+    classIcon: {fileID: 0}
+    cost: 0
+    healthPoints: 1
+    armorPoints: 1
+    attackPoints: 1
+    movementPoints: 1
+    attacks: 1
+    attackRange: 1
+  - name: 16
+    cardName: Mounted Priest
+    description: 
+    classIcon: {fileID: 0}
+    cost: 0
+    healthPoints: 1
+    armorPoints: 1
+    attackPoints: 1
+    movementPoints: 1
+    attacks: 1
+    attackRange: 1
+  - name: 17
+    cardName: Mounted Scout
+    description: 
+    classIcon: {fileID: 0}
+    cost: 0
+    healthPoints: 1
+    armorPoints: 1
+    attackPoints: 1
+    movementPoints: 1
+    attacks: 1
+    attackRange: 1
+  - name: 18
+    cardName: Paladin
+    description: Swipes several enemies with his hammer
+    classIcon: {fileID: 21300000, guid: 6c313154b24174e74a18a2c64be8e231, type: 3}
+    cost: 2
+    healthPoints: 3
+    armorPoints: 1
+    attackPoints: 3
+    movementPoints: 2
+    attacks: 1
+    attackRange: 1
+  - name: 19
+    cardName: Priest
+    description: 
+    classIcon: {fileID: 21300000, guid: e3c6fd8e5adf541adb992f6a1f75e2b9, type: 3}
+    cost: 1
+    healthPoints: 1
+    armorPoints: 1
+    attackPoints: 1
+    movementPoints: 1
+    attacks: 1
+    attackRange: 1
+  - name: 20
+    cardName: Scout
+    description: Great mobility
+    classIcon: {fileID: 21300000, guid: 39ef3ee733c904f08a85268391803a80, type: 3}
+    cost: 1
+    healthPoints: 1
+    armorPoints: 1
+    attackPoints: 1
+    movementPoints: 3
+    attacks: 1
+    attackRange: 2
+  - name: 21
+    cardName: Spearman
+    description: Can block charges
+    classIcon: {fileID: 21300000, guid: 372545287556442819fd21f8bc208cc2, type: 3}
+    cost: 2
+    healthPoints: 3
+    armorPoints: 3
+    attackPoints: 1
+    movementPoints: 1
+    attacks: 1
+    attackRange: 1
+  - name: 22
+    cardName: Swordman
+    description: High damage
+    classIcon: {fileID: 21300000, guid: 92885073c980349c2a786888bd70f710, type: 3}
+    cost: 1
+    healthPoints: 3
+    armorPoints: 1
+    attackPoints: 3
+    movementPoints: 2
+    attacks: 1
+    attackRange: 1
